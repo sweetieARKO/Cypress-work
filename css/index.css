@@ -24,8 +24,8 @@ body{
 .head{
     background: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
-    background-size: 3000px 1000px;
     padding-top: 0;
+    background-size: cover;
 
 }
 .head img{
@@ -144,7 +144,7 @@ border: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    padding-bottom: 59px;
     }
 .fourth h3{
     width: 730px;;
@@ -189,10 +189,10 @@ border: none;
     padding-right: 219px;
 }
 .image-computer img{
-    width: 542px;
+    width: 938px;
 }
 .third .items{
-margin-left: -70px;;       
+padding-left: 39px;      
 width: 350px;
  
     
@@ -229,7 +229,7 @@ font-weight: 600;
 .first.two p{
     color:  #9EABB2;
     width: 650px;
-    font-size: 16px;
+    font-size: 20px;
     padding-left: 280px;
     line-height: 30px;
     padding-top: 17px;
@@ -523,7 +523,7 @@ padding-bottom: 30px;
     padding-top: 129px;
 }
 .third .items{
-    padding-left: 211px;
+    
     padding-top: 60px;
 }
 .item p{
@@ -681,13 +681,15 @@ font-size: 16px;
 }
 .container{
 overflow-x: hidden;
+display: flex;
+flex-direction: column;
 }
 .head{
     background: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
 background-size: cover;
 padding-top: 0;
-width: 900px;
+width: 1114px;
 overflow-x: hidden;
 }
 .symbol{
@@ -708,8 +710,9 @@ font-size: 16px;
 .buttons{
 display: flex;
 flex-direction: column;
-margin-left: 0;
-padding-left: 81px;
+justify-content: center;
+align-items: center;
+margin-left: -59px;
 }
 .buttons .one{
 margin-left: 220px;
@@ -724,6 +727,9 @@ width: 311px;
 display: flex;
 flex-direction: column;
 padding-bottom: 0;
+}
+.second.fourth h1{
+    margin-left: -600px;
 }
 .list{
 display: flex;
@@ -741,15 +747,15 @@ flex-direction: column;
 width: 139px;
 }
 .second.fourth{
-    margin-left: -510px;
+    margin-left: -359px;
 }
 .second.fourth p{
-    padding-left: 589px;
-    width: 23%;
+    padding-left: 471px;
+    width: 25%;
 }
 .fourth h3{
 width: 20%;
-padding-left : 617px;
+padding-left :503px;
 font-size: 28px;
 }
 .fourth p{
@@ -776,17 +782,17 @@ margin-left: -445px;
 padding-top: 129px;
 }
 .third .items{
-padding-left: 392px;
+padding-left: 280px;
 padding-top: 60px;
 }
 .item p{
-
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
 text-align: center;
 font-size: 16px;
-margin-left: -2px;
+padding-left: 15px;
 }
 .item h2{
     
@@ -794,15 +800,20 @@ margin-left: -2px;
     justify-content: center;
     align-items: center;
 }
-
+.item.two p{
+    width: 80%;
+}
 .first.two{
-padding-left: 341px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 .first.two h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 20%;
     text-align: center;
     padding-left: 443px;
     font-size: 28px;
@@ -825,7 +836,7 @@ padding-left: 270px;
 .computers img{
 width: 311px;
 margin-left: 0px;
-padding-left: 90px;
+padding-left: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -838,13 +849,15 @@ text-align: center;
 font-size: 28px;
 }
 .first p{
-padding-left: 150px;
+padding-left: 105px;
 width: 70%;
 font-size: 16px;   
 }
 .list{
-    margin-left: 0;
-    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
 }
 .list .one p{
 
@@ -865,15 +878,27 @@ width: 50%;
 padding-left: 309px;
 }
 .first.fifth{
-    padding-left: 209px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first.fifth h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: -250px;
 }
  .first.fifth p {
-    padding-left: 150px;
+    margin-left: -250px;
     width: 300px;
     line-height: 26px;
 }
 .icons{
-padding-left: 258px;   
+padding-left: 151px;   
 }
 .part img{
 width: 139px;
@@ -899,9 +924,7 @@ padding-bottom: 59px;
     padding-left: 80px;
     margin-left: 0;
 }
-.paragraph{
-    padding-left: 180px;
-}
+
 .part{
 padding-left: 156px;
 }
@@ -914,13 +937,14 @@ margin-left: -320px;
 display: flex;
 align-items: center;
 justify-content: center;
-padding-left: 297px;
+padding-left: 161px;
+margin-left: 0;
 }
 .links li  a{
-padding-left :454px;
+padding-left :268px;
 }
 footer .social{
-    padding-left: 367px;
+    padding-left: 268px;
 }
 footer .social img{
 padding-left: 60px;
@@ -938,6 +962,10 @@ padding-left: 60px;
     width: 66%;
 }
 .buttons.last{
-    padding-left: 134px;
+    padding-left: 0;
+    margin-left: -237px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 }
