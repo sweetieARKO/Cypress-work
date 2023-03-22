@@ -657,7 +657,7 @@ font-weight: 600;
 }
 .item p{
     width: 120%;
-    font-size: 16px;
+        font-size: 16px;
     color:  #9EABB2;
     text-align: left;
     line-height: 30px;
@@ -1486,7 +1486,7 @@ footer .one img{
     margin-right: 0;
 }
 footer .social{
-    padding-left: 268px;
+    padding-left: 0;
 }
 footer .social img{
 padding-left: 60px;
