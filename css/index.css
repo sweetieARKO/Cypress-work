@@ -276,8 +276,8 @@ padding-top: 86px;
 
 .list{
     display: flex;
-    justify-content: space-between;
-    margin: 0;
+    justify-content: center;
+    width: 100%;
 }
 .part{
     display: flex;
@@ -414,6 +414,13 @@ footer .social img:not(:first-child){
     .container{
         width: 100%;
     }
+    .second p{
+        width: 70%;
+    }
+    .fourth p{
+        width: 78%;
+
+    }
     .image-computer{
         padding-right: 0;
     }
@@ -450,6 +457,9 @@ footer .social img:not(:first-child){
     }
     .part{
         margin: 30px -11px auto 100px;
+    }
+    .paragraph p{
+        width: 38%;
     }
 }
 
@@ -510,7 +520,8 @@ footer .social img:not(:first-child){
     }
     .part{
         display: flex;
-        margin: 120px 320px 260px;
+        
+    margin: 120px -251px auto 260px;
         justify-content: center;
     }
     .part img{
@@ -570,7 +581,7 @@ overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75px;
+    width: 155px;
 }
 .second h1{
     width: 75%;
