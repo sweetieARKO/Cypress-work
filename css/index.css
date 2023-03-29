@@ -4,6 +4,7 @@
 
 html{
     overflow-x: hidden;
+    
 }
 body{
     font-family:'Bai Jamjuree SemiBold';
@@ -21,7 +22,7 @@ body{
     width: 100%;
     margin: 0;
     text-align: center;
-    font-family: 'Bai Jamjuree';
+    font-family: 'Bai Jamjuree SemiBold';
     
 
 }
@@ -67,7 +68,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 43%;
     letter-spacing: 0.15px;
     line-height: 30px;
     vertical-align: top;
@@ -164,7 +165,7 @@ border: none;
     
 
 }
-.icons{e
+.icons{
 }
 .fourth p{
  
@@ -211,7 +212,7 @@ font-family: 'Bai Jamjuree';
 font-weight: 600;
 }
 .item p{
-    
+    width: 87%;
     font-size: 16px;
     color:  #9EABB2;
     text-align: left;
@@ -220,31 +221,34 @@ font-weight: 600;
 }
 .first.two{
     margin-top: -465px;
-    margin-left: -5px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .first.two h1{
     color: #4C545C;
     margin-bottom: -10px;
     
 
-        padding-left: 269px;
         font-size: 36px;
         width: 730px;
         font-weight: 600;
 }
 .first.two p{
     color:  #9EABB2;
-    width: 770px;
+    width: 35%;
     font-size: 16px;
-    padding-left: 280px;
+    padding-left: 0;
     line-height: 35px;
     padding-top: 17px;
 
 }
 .computers{
-width: 812px;
-padding-left: 200px;
-padding-top: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .first h4{
     font-weight: 600;
@@ -252,20 +256,17 @@ padding-top: 86px;
     color: #4C545C;
     line-height: 45px;
     padding-bottom: 19px;
-    text-align: left;
-    padding-left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .first p{
    color:  #9EABB2;
    font-weight: 400;
    font-size: 18px;
-   width: 730px;
-   text-align: center;
-   padding-left: 200px;
    padding-bottom: 40px;
 }
 .first.fifth{
-    padding-left: 94px;
     color: #9EABB2;
 }
 
@@ -276,16 +277,18 @@ padding-top: 86px;
 
 .list{
     display: flex;
-    justify-content: center;
+    /*justify-content: space-between*/;
     width: 100%;
+    align-items: center;
+    padding-bottom: 60px;
 }
 .part{
     display: flex;
     justify-content: space-between;
-    margin: 120px 50px auto 260px;
+    margin: 120px 50px auto 219px;
 }
 .one.blacklists p{
-    width: 52%;
+    width: 50%;
     margin: auto;
     color: #9EABB2;
     line-height: 30px;
@@ -296,7 +299,7 @@ padding-top: 86px;
         font-size: 24px;
     }
     .one.one.text p{
-        width: 79%;
+        width: 72%;
         margin: auto;
         color: #9EABB2;
         line-height: 30px;
@@ -312,7 +315,7 @@ padding-top: 86px;
         font-size: 24px;
     }
 .one.one.preview p{
-    width: 86%;
+    width: 79%;
     margin: auto;
     color: #9EABB2;
     line-height: 30px;
@@ -395,19 +398,19 @@ footer .social img:not(:first-child){
 
 
 }
-@media screen and (max-width:1440px){
+@media only screen and (max-width:1440px){
     .one.blacklists p{
-        width: 54%;
+        width: 50%;
     }
     .one.one.text p{
-        width: 82%;
+        width: 72%;
     }
     .first.two p{
-        width: 633px;
-        padding-left: 357px;
+        width: 40%;
+        padding-left: 0;
     }
 }
-@media screen and (min-width:1025px) and (max-width:1200px){
+@media only screen and (min-width:1025px) and (max-width:1200px){
     body{
         width: 100%;
     }
@@ -415,10 +418,10 @@ footer .social img:not(:first-child){
         width: 100%;
     }
     .second p{
-        width: 70%;
+        width: 60%;
     }
     .fourth p{
-        width: 78%;
+        width: 65%;
 
     }
     .image-computer{
@@ -435,43 +438,57 @@ footer .social img:not(:first-child){
         padding-right: 0;
     }
     .first.two p{
-        width: 647px;
+        width: 55%;
+        padding-left: 295px;
+    }
+    .item.one p{
+        width: 85%;
+    }
+    .item.two p{
+        width: 85%;
+    }
+    .item.three p{
+        width: 85%;
     }
     .computers{
-        padding-left: 61px;
+        padding-left: 0;
     }
     .first.fifth{
         padding-left: 0;
     }
     .one.blacklists p{
-        width: 80%;
+        width: 68%;
     }
     .one.one.text p{
-        width:125%;
+        width:113%;
         text-align: center;
-        margin-left: -40px;
+        margin-left: -30px;
+        
+    }
+    .list{
+        margin-left: -60px;
     }
     .one.one.preview p{
-        width: 90%;
+        width: 103%;
         margin-left: 30px;
     }
     .part{
-        margin: 30px -11px auto 100px;
+        margin: 30px -11px auto 38px;
     }
     .paragraph p{
-        width: 38%;
+        width: 70%;
     }
 }
 
-@media screen and (max-width:2560px) and (min-width:1550px){
+@media only screen and (max-width:2560px) and (min-width:1550px){
     body{
         width: 100%;
     }
     .second p{
-        width: 29%;
+        width: 25%;
     }
     .fourth p{
-        width: 31%;
+        width: 27%;
     }
     .image-computer img{
         width: 1555px;
@@ -482,29 +499,27 @@ footer .social img:not(:first-child){
         padding-top: 70px;
     }
     .item h2{
-        width: 200%;
+        width: 100%;
     }
     .item p{
-        width: 320%;
+        width: 85%;
     }
     .item.one{
     
         padding-bottom: 40px;
     }
     .item.one p{
-        width: 100%;
+        width: 85%;
     }
-    .item.two p{
-        width: 100%;
-    }
+    
     .item.two{
         padding-bottom: 40px;
     }
     .item.three p{
-        width: 100%;
+        width: 85%;
     }
     .first.two{
-        padding-left: 580px;
+        
     }
     .computers{
         padding-left: 749px;;
@@ -529,7 +544,7 @@ footer .social img:not(:first-child){
         margin-right: 100px;
     }
     .first.two p{
-        width: 598px;
+        width: 21%;
     }
     .one.blacklists p{
         width: 49%;
@@ -541,7 +556,7 @@ footer .social img:not(:first-child){
         width: 75%;
     }
     .paragraph p{
-        width: 30%;
+        width: 26%;
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -584,13 +599,13 @@ overflow: hidden;
     width: 155px;
 }
 .second h1{
-    width: 75%;
+    width: 55%;
     padding-left: 362px;
     font-size: 32px;
     padding-right: 365px;
 }
 .second p{
-    width: 74%;
+    width: 58%;
     font-size: 16px;
     padding-left:0;
 }
@@ -618,24 +633,22 @@ overflow: hidden;
 }
 .item.one{
 text-align: left;
-margin-left: -59px;
 padding-bottom: 30px;
 }
 .item.two{
-margin-left: -47px;
-padding-bottom: 30px;
+/*padding-bottom: 30px;*/
 }
 .item.two p{
     width: 70%;
 }
 .item.three{
-    margin-left: -47px;
+    
 }
 .item.three h2{
     padding-left: 48px;
 }
 .fourth p{
-    width: 73%;
+    width: 55%;
     font-size: 16px;
 }
 .image-computer{
@@ -662,26 +675,33 @@ padding-bottom: 30px;
     margin-left: 0;
 }
 .item p{
-    width: 80%;
+    font-weight: 400;
+    width: 75%;
     text-align: center;
     font-size: 16px;
     margin-left: -2px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
 }
 .item h2{
     display: flex;
-    padding-left: 82px;
-}
-.first.two{
     padding-left: 60px;
 }
+.item.three h2{
+    padding-left: 21px;
+}
+.first.two{
+   /* padding-left: 60px;*/
+}
 .first.two h1{
-    padding-left: 20px;
-    width: 80%;
+    /*padding-left: 20px;*/
+    width: 57%;
     font-size: 28px;
+    line-height: 35px;
 }
 .first.two p{
     padding-left: 16px;
-    width: 85%;
+    width: 65%;
     padding-bottom: 22px;
 }
 .computers{
@@ -709,7 +729,7 @@ padding-bottom: 30px;
 }
 .list .one p{
     
-    width: 74%;
+    width: 58%;
     padding-left: 0;
      padding-right: 0%; 
 
@@ -737,8 +757,9 @@ padding-bottom: 30px;
 padding-left: 1px;
 }
 .first.fifth p{
-    padding-left: 60px;
+    padding-left: 88px;
     line-height: 30px;
+    width: 60%;
 }
 .icons{
  padding-left: 132px;   
@@ -764,7 +785,7 @@ padding-left: 1px;
     font-size: 28px;
 }
 .paragraph p{
-    width: 383px;
+    width: 65%;
     padding-left: 51px;
 }
 .second.two p{
@@ -848,9 +869,8 @@ footer .social img{
     margin-left: 0;
 }
 .one.one.text p{
-    width: 75%;
+    width: 66%;
     padding-left: 0;
-    margin-left: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -859,6 +879,7 @@ footer .social img{
     display: flex;
     flex-direction: column;
     padding-top: 0;
+    padding-bottom: 0;
 }
 .icons{
     display: flex;
@@ -899,6 +920,7 @@ margin-left: 0;
 }
 p{
 font-size: 16px;
+
 }
 .container{
 overflow-x: hidden;
@@ -923,48 +945,49 @@ align-items: center;
 .second h1{
 width: 35%;
 padding-left: 348px;
-font-size: 32px;
+font-size: 46px;
+line-height: 60px;
 }
 .second p{
-width: 28.2%;
-font-size: 16px;
-
+width: 31%;
+font-size: 20px;
+line-height: 30px;
 }
 .buttons{
    margin-left: 0;
    display: flex;
-   flex-direction:  column;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
 
 }
 .buttons .one{
 margin-left: 0;
-margin-bottom: 30px;
 width: 311px;
+margin-bottom: 40px;
 }
 .buttons .two{
-margin-left: 0;
+margin-left: 16px;
 width: 311px;
+}
+.buttons .one{
+    
 }
 .third{
 display: flex;
 flex-direction: column;
+width: 100%;
 padding-bottom: 0;
+align-items: center;
+justify-content: center;
 }
 .second.fourth h1{
     margin-left: -600px;
 }
-.list{
-display: flex;
-flex-direction: column;
-margin: 0;
-justify-content: center;
-align-items: center;
-padding-left: 199px;
-}
+
+
 .image-computer img{
-    width: 0;
+    width: 100%;
 }
 .part{
 display: flex;
@@ -982,7 +1005,7 @@ width: 65%;
 text-align: center;
 }
 .one.one.preview p{
-    width:  70%;
+    width: 60%;
 }
 .part{
 width: 139px;
@@ -992,12 +1015,13 @@ display: flex;
 }
 .second.fourth p{
     padding-left: 0;
-    width: 36%;
+    width: 35%;
+    font-size: 18px;
 }
 .fourth h3{
-width: 30%;
+width: 53%;
 padding-left :0;
-font-size: 28px;
+font-size: 36px;
 }
 .fourth p{
 width: 25%;
@@ -1008,6 +1032,7 @@ padding-left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1216px;
 }
 .image-computer{
 display: flex;
@@ -1016,40 +1041,51 @@ align-items: center;
 margin-left: 0;
 padding-right: 0;
 padding-bottom: 0;
+width: 752px;
+padding-top: 50px;
 }
 .image-computer img{
-width: 312px;
+
 display: flex;
 justify-content: center;
 align-items: center;
+width: 70%;
+
+padding-top: 50px;
 }
 .first.two{
 margin-top: 0;
 margin-left: 0;
 padding-top: 129px;
 padding-left: 0;
+width: 464px;
 }
 .third .items{
 padding-left: 0;
-padding-top: 60px;
+padding-top: 0;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .item p{
-    width: 90%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
 text-align: center;
 font-size: 16px;
-padding-left: 15px;
+padding-left: 30px;
 }
 .item h2{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .item.two p{
-    width: 80%;
+    width: 72%;
+}
+.item.three p{
+    width: 73%;
 }
 .first.two{
 display: flex;
@@ -1061,18 +1097,19 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40%;
+    font-size: 36px;
     text-align: center;
     padding-left: 0;
-    font-size: 28px;
+    width: 80%;
+
 }
 
 
 .first.two p{
 
     color: #9EABB2;
-    width: 39%;
-    font-size: 16px;
+    width: 66%;
+    font-size: 18px;
     padding-left: 0;
     line-height: 30px;
     padding-top: 17px;
@@ -1085,6 +1122,7 @@ justify-content: center;
     align-items: center;
 padding-left: 0;
 padding-top: 63px;
+width: 70%;
 }
 .computers img{
 width: 311px;
@@ -1094,12 +1132,14 @@ display: flex;
 justify-content: center;
 align-items: center;
 text-align: left;
+width: 100%;
 }
 .first h4{
 width: 50%;
 padding-left: 0;
 text-align: center;
-font-size: 28px;
+font-weight: 600;
+
 }
 .first p{
 padding-left: 14px;
@@ -1107,6 +1147,8 @@ width: 70%;
 font-size: 16px;   
 }
 .list{
+    display: flex;
+    flex-direction: column;
 }
 .first.fifth{
     
@@ -1118,14 +1160,15 @@ font-size: 16px;
 }
 .first.fifth h4{
     display: flex;
-    flex-direction: column;
+    line-height: 60px;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 89%;
     margin-left: 0;
+    font-size: 36px;
 }
  .first.fifth p {
-    width: 300px;
+    width: 60%;
     line-height: 26px;
     margin-left: 0px;
     padding-left: 28px;
@@ -1194,12 +1237,12 @@ padding-left: 60px;
     padding-left: 280px;
 }
 .paragraph h1{
-    width: 413px;
-    padding-left: 365px;
+    width: 40%;
+    line-height: 60px;
 }
 .paragraph p{
     
-    width: 387px;
+    width: 349px;
     line-height: 36px;
 }
 .buttons.last{
@@ -1224,7 +1267,9 @@ padding-left: 60px;
     display: flex;
     flex-direction: column;
     padding-left: 0;
-    margin-left: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
 }
 .google{
     position: relative;
@@ -1249,19 +1294,22 @@ padding-left: 60px;
     margin-left: 0;
     padding-left: 30px;
 }
-.list{
-    padding-bottom: 0;
-    padding-left: 0;
-}
+
 
 .item.one{
-    padding-bottom: 40px;
+    padding-bottom: 0;
+    padding-top: 50px;
 }
 .item.two{
-    padding-bottom: 40px;
+    padding-bottom: 0;
+    padding-top: 20px;
+
 }
 .one.blacklists p{
     width: 50%;
+}
+.item.three{
+    padding-top: 0;
 }
 }
 
@@ -1320,16 +1368,52 @@ padding-left: 60px;
     flex-direction: column;
 }
 }
- 
-/*@media only screen and (min-width:1534px){
-.one.one.preview p{
-    width: 85%;
+*/ 
 }
-.one.blacklists p{
-    width: 54%;
+@media only screen and (min-width:1534px){
+.first.two p{
+    width: 21%;
+    padding-left: 0;
 }
-.one.one.text p{
-    width: 75%;
+.first.two h1{
+    padding-left: 0;
 }
-
+.first.two{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.computers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.computers img{
+}
+.first.fifth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0;
+}
+.first h4{
+    padding-left: 0;
+    text-align: center;
+}
+.first p{
+    padding-left: 0;
+}
+.paragraph p{
+    width: 48%;
+}
+.first .two p{}
+}
+.computers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
 }
