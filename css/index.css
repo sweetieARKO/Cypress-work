@@ -193,7 +193,8 @@ border: none;
     padding-bottom: 572px;
     margin-left: -155px;
     padding-right: 219px;
-    width: 752px;
+    /*width: 752px;*/
+    width: 1542px;
 }
 .image-computer img{
     width: 938px;
@@ -494,7 +495,7 @@ footer .social img:not(:first-child){
         width: 1555px;
     }
     .third .items{
-        padding-left: 744px;
+        padding-left: 44px;
         width: 350px;
         padding-top: 70px;
     }
@@ -1407,7 +1408,7 @@ padding-left: 60px;
     padding-left: 0;
 }
 .paragraph p{
-    width: 48%;
+    width: 28%;
 }
 .first .two p{}
 }
