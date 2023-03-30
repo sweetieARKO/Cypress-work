@@ -255,7 +255,6 @@ font-weight: 600;
     font-size: 36px;
     color: #4C545C;
     line-height: 45px;
-    padding-bottom: 19px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,7 +287,7 @@ font-weight: 600;
     margin: 120px 50px auto 219px;
 }
 .one.blacklists p{
-    width: 50%;
+    width: 49%;
     margin: auto;
     color: #9EABB2;
     line-height: 30px;
