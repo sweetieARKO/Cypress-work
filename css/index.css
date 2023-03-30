@@ -647,7 +647,7 @@ padding-bottom: 30px;
     padding-left: 48px;
 }
 .fourth p{
-    width: 55%;
+    width: 57%;
     font-size: 16px;
 }
 .image-computer{
@@ -656,6 +656,7 @@ padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 0;
 }
 .image-computer img{
     width: 312px;
