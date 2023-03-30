@@ -17,7 +17,9 @@ body{
     margin: 0;
     padding: 0;
 }
-
+.first.two p{
+    width: 100%;
+}
 .container{
     width: 100%;
     margin: 0;
@@ -269,7 +271,9 @@ font-weight: 600;
     color: #9EABB2;
 }
 
-
+.first.two p{
+     
+}
 
 
     
@@ -906,7 +910,7 @@ margin-left: 0;
 }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     html{
         overflow-x: hidden;
         margin-left: -100px;
@@ -1015,7 +1019,7 @@ display: flex;
 }
 .second.fourth p{
     padding-left: 0;
-    width: 35%;
+    width: 53%;
     font-size: 18px;
 }
 .fourth h3{
@@ -1409,6 +1413,9 @@ padding-left: 60px;
 .paragraph p{
     width: 28%;
 }
+.third .items{
+    padding-left: 130px;
+}
 .first .two p{}
 }
 .computers{
@@ -1416,4 +1423,48 @@ padding-left: 60px;
     justify-content: center;
     align-items: center;
     padding-left: 0;
+}
+
+
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+.image-computer img{
+    width: 100%;
+}    
+.items{
+    margin-left: -40px;
+}
+.item p{
+    width: 300px;
+}
+.second p{
+    width: 80%;
+}
+.fourth p{
+width: 89%;
+}
+.item.two{
+    padding-top: 4px;
+}
+.item.three{
+    padding-top: 4px;
+}
+.first.two p{
+    width: 70%;
+}
+.computers img{
+    width: 710px;
+}
+.one.blacklists p{
+    width: 70%;
+}
+.one.one.text p{
+    width: 100%;
+}
+.one.one.preview p{
+    width: 100%;
+}
+.part{
+    margin: 0;
+}
 }
