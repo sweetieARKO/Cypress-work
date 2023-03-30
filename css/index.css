@@ -189,18 +189,17 @@ border: none;
     padding-bottom: 114px;
 }
 .image-computer{
-    /*width: 752px;*/
     padding-bottom: 572px;
     margin-left: -155px;
-    padding-right: 219px;
-    /*width: 752px;*/
-    width: 1542px;
+    padding-right: 129px;
 }
 .image-computer img{
+    
     width: 938px;
+
 }
 .third .items{
-padding-left: 79px;      
+padding-left:0;     
 width: 350px;
  
     
