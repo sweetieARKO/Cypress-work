@@ -241,7 +241,7 @@ font-weight: 600;
 .first.two p{
     color:  #9EABB2;
     width: 35%;
-    font-size: 16px;
+    font-size: 18px;
     padding-left: 0;
     line-height: 35px;
     padding-top: 17px;
@@ -406,10 +406,13 @@ footer .social img:not(:first-child){
         width: 50%;
     }
     .one.one.text p{
-        width: 72%;
+        width: 75%;
+    }
+    .one.one.preview  p{
+        width: 85%;
     }
     .first.two p{
-        width: 40%;
+        width: 45%;
         padding-left: 0;
     }
 }
@@ -428,7 +431,7 @@ footer .social img:not(:first-child){
 
     }
     .image-computer{
-        padding-right: 0;
+        padding-right: 129px;
     }
     .item.two{
         padding-top: 30px;
@@ -1438,10 +1441,10 @@ padding-left: 60px;
     width: 300px;
 }
 .second p{
-    width: 80%;
+    width: 60%;
 }
 .fourth p{
-width: 89%;
+width: 68%;
 }
 .item.two{
     padding-top: 4px;
@@ -1450,7 +1453,7 @@ width: 89%;
     padding-top: 4px;
 }
 .first.two p{
-    width: 70%;
+    width: 60%;
 }
 .computers img{
     width: 710px;
