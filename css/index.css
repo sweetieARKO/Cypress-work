@@ -1277,6 +1277,7 @@ padding-left: 60px;
     margin: 0;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .google{
     position: relative;
@@ -1459,15 +1460,18 @@ width: 68%;
     width: 710px;
 }
 .one.blacklists p{
-    width: 70%;
+    width: 88%;
+    margin: 0;
 }
 .one.one.text p{
-    width: 100%;
+     width: 130%;
+    margin-left: -46px;
+    
 }
 .one.one.preview p{
     width: 100%;
+    margin-left: 12px;
 }
 .part{
-    margin: 0 0 0  90px;
-}
+    margin: 0;
 }
